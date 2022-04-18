@@ -12,6 +12,20 @@
 
 <a name="Two"></a>
 
+### S3 Bucket:
+
+1. Create Bucket.
+
+   - `aws s3api create-bucket --bucket meou-images --region us-east-1`
+
+2. Add Bucket Policy to Bucket.
+
+   - `{ "Version": "2008-10-17", "Statement": [ { "Sid": "AllowPublicRead", "Effect": "Allow", "Principal": { "AWS": "*" }, "Action": "s3:GetObject", "Resource": "arn:aws:s3:::meou-api/*" } ] }`
+
+3. Upload Sample Images and take note of the image id.
+
+<a name="Three"></a>
+
 ### Pushing Images to Registry:
 
 1. Push meou-api image to registry.
