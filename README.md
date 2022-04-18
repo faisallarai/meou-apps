@@ -4,13 +4,19 @@
 
 <a name="One"></a>
 
-### Prerequisite:
+## Design
+
+![alt text](https://lucid.app/publicSegments/view/18ea80c3-8e4c-4c31-95b7-27b836c5f01c/image.png)
+
+<a name="Two"></a>
+
+## Prerequisite:
 
 1. docker
 2. yarn
 3. npm
 
-<a name="Two"></a>
+<a name="Three"></a>
 
 ### S3 Bucket:
 
@@ -24,7 +30,7 @@
 
 3. Upload Sample Images and take note of the image id.
 
-<a name="Three"></a>
+<a name="Four"></a>
 
 ### Pushing Images to Registry:
 
