@@ -18,15 +18,15 @@
 
    - `cd api `
    - `docker build -t meou-api .`
-   - `docker tag meou-api:latest faisallarai/meou-api:1.0.0`
-   - `docker push faisallarai/meou-api:1.0.0`
+   - `docker tag meou-api:latest faisallarai/meou-api:1.0.5`
+   - `docker push faisallarai/meou-api:1.0.5`
 
 2. Push meou-client image to registry.
 
    - `cd client `
    - `docker build -t meou-client .`
-   - `docker tag meou-client:latest faisallarai/meou-client:1.0.0`
-   - `docker push faisallarai/meou-client:1.0.0`
+   - `docker tag meou-client:latest faisallarai/meou-client:1.0.5`
+   - `docker push faisallarai/meou-client:1.0.5`
 
 ## Improvement
 
