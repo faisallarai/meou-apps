@@ -21,9 +21,13 @@
    - `docker tag meou-api:latest faisallarai/meou-api:1.0.0`
    - `docker push faisallarai/meou-api:1.0.0`
 
-1. Push meou-client image to registry.
+2. Push meou-client image to registry.
 
    - `cd client `
    - `docker build -t meou-client .`
    - `docker tag meou-client:latest faisallarai/meou-client:1.0.0`
    - `docker push faisallarai/meou-client:1.0.0`
+
+## Improvement
+
+### This can be added to github / gitlab ci which will trigger pushing images to registry
